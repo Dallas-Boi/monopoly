@@ -1,0 +1,271 @@
+{
+    "Plans": {
+        "Future Updates": [
+            "Develope Upgrades other than housing (like insurance, security, etc.)",
+            "Make a system where going to jail will lose your inventory (Advance Gamemode)",
+            "Make a system where you can keep your items but can not use them for that turn (This is just so that you can save your items if you go to jail) (Advance Gamemode)",
+            "Add a deal (When someone lands on someone elses property add a way so they can make a deal to either pay lower or to pay nothing) (Advance Gamemode)",
+            "Add a error report button (This will be on a timer before you can press it again due to bandwidth | This will also be sent throgh the on board console)",
+            "Multiplayer | May be added: TBD",
+            "Resize the board and move the action Buttons",
+            "When hovering over a property it shows you its details",
+            "Have a dice image when rolling",
+            "Make a logging system for the new error Handling for debuging"
+        ]
+    },
+    "V 0.1.0": {
+        "Date": "December 1st, 2022",
+        "Release": "Released the beta for Monopoly"
+    },
+    "V 0.1.1": {
+        "Date": "December 2nd, 2022",
+        "Added": [
+            "Added a check to see if the color the player wants is a color and does not return an error",
+            "Added a way to delete players before starting the game"
+        ],
+        "Fixes": [
+            "Fixed an issue when a player lands on an owned property and returns an error",
+            "Fixed a bug where if the player does not input a color it will make them the color of the board",
+            "Fixed a bug where free_parking was not working",
+            "Fixed a bug where players where not being set to right positing on free parking",
+            "Fixed a bug where landing on \"Go to Jail\" would not move the player to jail and will not allow the player to end their turn"
+        ]
+    },
+    "V 0.1.2": {
+        "Date": "December 5th, 2022",
+        "Added": [
+            "Added a few items to the chance and chest spots and allowed for use for those spots (They are now working)"
+        ],
+        "Changes": [
+            "Changed the cash text from \"player Cash: $\" to \"player has: $\""
+        ],
+        "Fixes": [
+            "Fixed a major issue with the trading system where errors would occur since the code could not find the data on the given players (This bug occured due to the new player names)",
+            "Fixed a bug where the trading text would put the players id insted of name"
+        ]
+    },
+    "V 0.1.3": {
+        "Date": "December 6th, 2022",
+        "Added": [
+            "Added the railroad property cost (if you own multiple railroads the rent goes up)",
+            "Added the Electric Company and Water Works cost (If you own only one you have to pay 4 times the roll and own both you pay 10x your roll)"
+        ],
+        "Changes": ["Nothing"],
+        "Fixes": [
+            "Fixed the roll doubles problem where rolling doubles would not allow you to roll again",
+            "Fixed a issue where landing on Luxury Tax would break the code and stop gameplay"
+        ]
+    },
+    "V 0.1.4": {
+        "Date": "December 7th, 2022",
+        "Added": [
+            "Added the auction System (Only allows properties right now)",
+            "Added some quality of life improvements (like text have underlines)",
+            "Added Text that tells you what you rolled"
+        ],
+        "Changes": [
+            "Made Cash label underlined depending on whos turn it is",
+            "Changed the Labels to have a different font (Helvetica 10)",
+            "Remade the change turn so the new bankrupt system can roll in easier"
+        ],
+        "Fixes": [
+            "Fix a lot of overlapping issues",
+            "Fixed a bug when the auction house allowed you to spend as much money as possible",
+            "Fixed a bug when a player owns 2 light_blues it allows them to buy houses",
+            "Fixed an issue where players could still auction a property after it was already auctioned off",
+            "Fixed an issue where players could still buy a property after it was already auction off",
+            "Fixed an issue with the player not gaining $200 when passing go",
+            "Fixed an issue where landing on anothers property and paying the button does not become disabled"
+        ]
+    },
+    "V 0.2.0": {
+        "Date": "December 9th, 2022",
+        "Added": [
+            "Allowed Players to go bankrupt when they want or when they are out of cash",
+            "When players create their name it will make the first letter a upper case letter",
+            "Made the code wait a bit if the player pulls a \"advance\" card from chest/chance (This is just so it does not look like they just move there)",
+            "Added a \"go to jail\" card to chance/chest",
+            "Added a \"arson\" card to chest",
+            "Added a disabled card function (This serves no purpose other than unfinished work)"
+        ],
+        "Changes": ["Nothing"],
+        "Fixes": [
+            "Fixed an issue where going to jail, action1 and action2 still have the text to buy something",
+            "Fixed an issue where landing on chest would give you chance details"
+        ]
+    },
+    "V 0.2.1": {
+        "Date": "December 12th, 2022",
+        "Added": [
+            "Added a way to return back to the main menu (By ending the game or by a button)",
+            "Added a arson button when landing on someones property",
+            "Added a system where chance/chest cards are randomized at the beginning of the game instead of randomized cards everytime you land on chance/chest",
+            "Enabled the \"pay_tax\" card"
+        ],
+        "Reworked": [
+            "Reworked the chance/chest system to be able to read better and to have less lines",
+            "Reworked the pay tax system to work with future additions"
+        ],
+        "Changes": ["Nothing"],
+        "Fixes": [
+            "Fixed an issue where the \"bankrupt\" Button is disabled when it should not be",
+            "Fixed an issue where the Trade button does not show up and Property management does not show up",
+            "Fixed an issue where going bankrupt with one person left would execute the auction house still",
+            "Fixed an issue where checking if the \"Get out of jail free card\" was taken from the pile or not",
+            "Fixed an issue where using the \"Get out of jail free card\" would try to remove something that is not there",
+            "Fixed an issue with disabled chance/chesst cards making it impossible to roll",
+            "Fixed an issue with landing on \"light_blues\" (while landing on them it would not find the data for the property)",
+            "Fixed an issue with \"pay_tax\" card (Now Working)"
+        ]
+    },
+    "V 0.3.0": {
+        "Date": "December 16th, 2022",
+        "Name": "The Advance Mode",
+        "Added": [
+            "Added a gamemodes section (Barebones currently). This is to allow for a normal game of monopoly or to have a advanced monopoly",
+            "Made cards only appear in certain gamemodes unless it is a universal card",
+            "Added a Main Menu Button (stops the game and returns to the main menu)",
+            "Added the save game feature (Saves after every turn)",
+            "Added the load game feature",
+            "Added a Shop Menu and Button (Allows players to complete certain task or have a higher chance of completing it)",
+            "Added a Bat, Lighter, Blow Torch, and Sledge Hammer to the player Shop",
+            "Added a disabled item feature (Serves no purpose and only used to disabled player items)",
+            "Added a disabled upgrade feature (Serves no purpose and only used to disabled property upgrades)",
+            "Added a Error Handling System (This will make it easier to report errors for public release)",
+            "Added the Better Housing System (Makes players buy a house on each property of a set before placing another)",
+            "Added a way to detect old versions of save game Data (This is so that older data will not cause problems for future updates)",
+            "Allowed players to buy items from the shop (Added the button but disabled it)"
+        ],
+        "Changes": ["Nothing"],
+        "Fixes": [
+            "Fixed a issue with landing on \"income tax\" and \"Luxury Tax\""
+        ]
+    },
+    "V 0.3.1": {
+        "Date": "January 9th, 2023",
+        "Name": "The Crime Wave",
+        "Added": [
+            "Allowed players to break others knees depending on their weapon",
+            "Allowed players to use their items they bought to commit crimes",
+            "Added a way to skip players turns when something happens to them",
+            "Added a \"mafia_comes\" card and makes the mafia mug you (Disabled until the mafia update comes out)",
+            "Added the hospital to the gamemode \"Advance\" and it replaces income tax (Non Functional)",
+            "Made the shop only open when its the end of a players turn",
+            "Added the Better Housing to the selling part of a property",
+            "Made the buy house button disable when it is a hotel or if the maxium amount of houses/hotels have been reached",
+            "Made it when a player breaks anothers players leg they are sent to the hospital spot",
+            "Added a small anti-Cheat to stop money exploits (still in alpha Barely worked on it)",
+            "Enabled the shop to allow players to buy items"
+        ],
+        "Changes": [
+            "Move the load monopoly save button into the gamemode section",
+            "Updated the way that player names are entered"
+        ],
+        "Fixes": [
+            "Fixed over lapping issues with the pervious version (V 0.3.0)",
+            "Fixed issues with the shop trying to add the bought item to your inventory",
+            "Fixed an issue with free parking not placing the player in the correct spot",
+            "Fixed an issue with free parking not giving the player money when they land on it",
+            "Fixed an issue with rolling doubles and rolling 3 doubles not sending the player to jail",
+            "Fixed an issue with rolling a double, landing on a chance/chest, and going to jail makes the player keep rolling without getting out of jail until it is not a double",
+            "Fixed an issue with players being allowed to open other menus when another menu is open causing the game to break",
+            "Fixed an issue where mortgaging a property would allow you to keep mortgaging and kept giving the player money (infinite Money Glitch)",
+            "Fixed an issue where the 'Un-Mortgage' text does not appear and will not allow the player to un-mortgage the property except if they are in the edit property window",
+            "Fixed an issue with editing properties with the edit property tab enabling the main buttons",
+            "Fixed an issue with un-mortgaging a property with 2 colors in the set",
+            "Fixed an issue when buying a motel would disable the buy house button with both edit_property and normal",
+            "Fixed an issue with the cards not being randomized and breaking chance/chest"
+        ]
+    },
+    "V 0.4.0": {
+        "Date": "January 17th, 2023",
+        "Name": "The revamp / Italian Mafia",
+        "Added": [
+            "Enabled the \"mafia_comes\" card to fit in with the mafia update",
+            "Added loans (Loans will give you money but you have to pay it in a certain amount of turns | If you do not then the mafia will take your property and money)",
+            "Added where if you do not pay the mafia back your loan they take their money back, the properties you bought with the money, and they break your legs",
+            "Added the loans to the anti-cheat to make loans not give a false positive",
+            "Added a casino (Advance gamemode only). The casino is only accessable when you pass go. When you pass go you can either go to the casino and gamble your $200 or you can just get $200 directly",
+            "Added a way to view the Change Logs on the main menu",
+            "Added a button to go back to the main menu from the gamemode selection",
+            "Added a button to go back to the gamemode selection from the player name/color tab",
+            "Made the anti cheat not go off if you pass \"Go\"",
+            "Made the board update before advancing anywhere using the chance/chest cards",
+            "Made it where landing on the hospital would make the player pay $25 for parking fee"
+        ],
+        "Removed": [
+            "Removed Beta tester Mode (This did absouletly Nothing)",
+            "Removed Debug Mode (This Did Nothing)",
+            "Removed all debug buttons (Replaced with console)"
+        ],
+        "Changes": [
+            "Changed what the Main Menus Looks like",
+            "Changed the way changelogs are stored",
+            "Changed the boards positions (moved down px)"
+        ],
+        "Fixes": [
+            "Fixed an issue when clicking on a property it will not bring up the property details",
+            "Fixed an issue with the chance/chest card \"Street Repairs\"",
+            "Fixed an issue with going to jail and not being able to end your turn",
+            "Fixed an issue with chance/chest \"advance\" cards not going to the end of the deck",
+            "Fixed an issue when in jail it will not allow you to choose an option",
+            "Fixed an issue with getting pay_all (pay all players) sending the player to jail",
+            "Fixed an issue when failing to roll a double in jail it would not let you end your turn",
+            "Fixed an issue when landing on \"toJail\" it does not put you in the correct spot",
+            "Fixed an issue where auctioning a property off will allow the player to roll again even if they did not roll doubles",
+            "Fixed an issue where the bankrupt button would not become enabled again"
+        ]
+    },
+    "V 0.5.0": {
+        "Date": "February 1st, 2023",
+        "Name": "The Customize Update",
+        "Added": [
+            "Made the change logs remove the old text when changing the log version",
+            "Made the input entry in monopoly equal nothing after entering a command",
+            "Added the custom gamemode selection",
+            "Made the custom gamemode selection remove items if the item has something to do with it"
+        ],
+        "Removed": [
+            "Disabled The Error Handling System (until I make a new one)"
+        ],
+        "Changes": [
+            "Reworked the how player system works",
+            "Reworked the Save game function. Save games will now be a couple characters instead of hundreds",
+            "Reworked how the chance/chest cards work"
+        ],
+        "Fixes": [
+            "Fixed an issue where the anticheat goes off when there is a lot of money in free parking",
+            "Fixed an issue with the Mafia comes Card",
+            "Fixed an issue with the trading system returning an error"
+        ]
+    },
+    "V 0.6": {
+        "Date": "",
+        "Name": "Reviving Monopoly",
+        "Added": [
+            "Added the remove property when trading ( forgot to finish it )",
+            "Added a line through mortgage properties",
+            "Added a logging system for debuging purposes ( Will be added with the new error System )",
+            "Added a way to show the player moving spot to spot ( Reworked Dice Rolling )"
+        ],
+        "Removed": [
+            "Casino ( Will be added later )"
+        ],
+        "Changes": [
+            "Reworked the way properties are stored and handled"
+        ],
+        "Fixes": [
+            "Fixed Trading system entirly",
+            "Fixed an issue with Trading not working with the current player system",
+            "Fixed an issue when trading the \"Total Value\" not displaying correctly",
+            "Fixed an issue when trading if they player does not have any properties they can add the text \"(player) has no tradable items\"",
+            "Fixed a unlimited money glitch when landing on \"Go\"",
+            "Fixed an issue where Selecting a different player while trading will have over lapped buttons",
+            "Fixed an issue after completing a trade the action1 (Buy/house button) and action2 (Sell house/Mortgage button) buttons can be click which will cause an error if the player does not own it",
+            "Fixed an issue when advancing it will not change your location",
+            "Fixed an issue when moretgaging a property another player can buy the property if they land on it",
+            "Fixed an issue when using the \"Get out of jail\" card it will not get the player out of jail",
+            "Fixed an issue when getting the card \"Give all players $50\" and \"Get $50 from all players\" not updating the cash labels"
+        ]
+    }
+}

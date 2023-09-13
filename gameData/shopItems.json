@@ -1,0 +1,8 @@
+{
+    "Player Shop": {
+        "Bat": {"details": "Allows you to break your opponents Knees", "price": 200},
+        "lighter": {"details": "Allows for a higher chance of commiting Arson", "price": 500},
+        "Blow torch": {"details": "Allows for a much higher chance of commiting Arson", "price": 750},
+        "Sledge hammer": {"details": "Allows for a much higher chance \nof breaking your opponents Kness", "price": 950}
+    }
+}

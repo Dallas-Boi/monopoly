@@ -1,0 +1,38 @@
+{
+    "chest": {
+        "1": {"id": "ooj_chest", "details": "You get out of jail for Free!", "gamemode": "Normal"},
+        "2": {"id": "advance_reading", "to":"railroad1", "details": "Yo get to advance to Reading Railroad", "gamemode": "Normal"},
+        "3": {"id": "Street_Repairs", "pay": [40, 115], "details": "You have to pay $40 for houses and $115 for Hotels!", "gamemode": "Normal"},
+        "4": {"id": "pay_tax", "pay": 200, "details": "You have to play $200 in taxes", "gamemode": "Normal"},
+        "5": {"id": "go_to_jail", "details": "You've been caught lacking. Go To Jail", "gamemode": "Normal"},
+        "6": {"id": "arson", "details": "It appears that someone one burned one of your buildings.", "gamemode": "Advance"},
+        "7": {"id": "mafia_comes", "details": "The Mafia is wanting money from you\nPay up or Lose 2 turns", "pay":150, "gamemode": "Advance"},
+        "8": {"id": "", "details": ""},
+        "9": {"id": "", "details": ""},
+        "10": {"id": "", "details": ""},
+        "11": {"id": "", "details": ""},
+        "12": {"id": "", "details": ""},
+        "13": {"id": "", "details": ""},
+        "14": {"id": "", "details": ""},
+        "15": {"id": "", "details": ""},
+        "16": {"id": "", "details": ""}
+    },
+    "chance": {
+        "1": {"id": "ooj_chance", "details": "You get out of jail for Free!", "gamemode": "Normal"},
+        "2": {"id": "to_all", "pay": 50, "details": "You have to play all players $50!", "gamemode": "Normal"},
+        "3": {"id": "Street_Repairs", "pay": [40, 115], "details": "You have to pay $40 for houses and $115 for Hotels!", "gamemode": "Normal"},
+        "4": {"id": "from_all", "pay": 50, "details": "You get $50 from each player!", "gamemode": "Normal"},
+        "5": {"id": "advance_go", "to":"go", "details": "You get to advance to Go!", "gamemode": "Normal"},
+        "6": {"id": "advance_boardwalk", "to":"blue2", "details": "You get to advance to Boardwalk!", "gamemode": "Normal"},
+        "7": {"id": "go_to_jail", "details": "You've been caught lacking. Go To Jail", "gamemode": "Normal"},
+        "8": {"id": "", "details": ""},
+        "9": {"id": "", "details": ""},
+        "10": {"id": "", "details": ""},
+        "11": {"id": "", "details": ""},
+        "12": {"id": "", "details": ""},
+        "13": {"id": "", "details": ""},
+        "14": {"id": "", "details": ""},
+        "15": {"id": "", "details": ""},
+        "16": {"id": "", "details": ""}
+    }
+}
